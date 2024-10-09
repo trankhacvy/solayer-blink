@@ -1,0 +1,14 @@
+{
+  "restartable": "rs",
+  "ignore": [".git", "node_modules/", "dist/"],
+  "watch": ["src/"],
+  "execMap": {
+    "ts": "node -r ts-node/register"
+  },
+  "env": {
+    "NODE_ENV": "development",
+    "API_BASE_URL": "https://jsonplaceholder.typicode.com",
+    "BASE_URL": "http://localhost:3000"
+  },
+  "ext": "js,json,ts"
+}
